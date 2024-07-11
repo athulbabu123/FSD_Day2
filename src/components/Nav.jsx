@@ -19,6 +19,9 @@ const Navbar = () => {
 		  <Button>
 			<Link to={'/c'} style={{textDecoration:'none', color:'white'}}>Counter</Link>
 		  </Button>
+      <Button>
+			<Link to={'/ho'} style={{textDecoration:'none', color:'white'}}>About</Link>
+		  </Button>
         </Toolbar>
       </AppBar>
     </Box>

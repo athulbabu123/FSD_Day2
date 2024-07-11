@@ -8,6 +8,7 @@ import First from './components/First'
 import StateBasics from './components/Statebasics'
 import Counter from './components/Counter'
 import { Route, Routes } from 'react-router-dom'
+import About from './components/About'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
 				<Route path='/' element={<First/>}/>
 				<Route path='/c' element={<Counter/>}/>
 				<Route path='/sb' element={<StateBasics/>}/>
+        <Route path='/ho' element={<About/>}/>
 			</Routes>
     </>
   )
